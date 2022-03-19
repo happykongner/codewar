@@ -19,7 +19,7 @@ function descendingOrder(n) {
   return parseInt(n.toString().split("").sort().reverse().join(""));
 }
 
-//我写de
+//我写de a
 function descendingOrder(n) {
   // let arr =Array.from(String(n), Number);
   let arr = n.toString().split("").map(Number);
